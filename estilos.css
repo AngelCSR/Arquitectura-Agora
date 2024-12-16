@@ -1,0 +1,99 @@
+
+   
+* { font-family: Arial;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 10px;
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+   color: yellow;
+   text-shadow: 3px 3px 3px black;
+}
+header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-image: url(https://lasallelaguna.mx/wp-content/uploads/2018/08/carreras_lasallelaguna_arquitectura-1170x750.jpg);
+
+}
+header h1{
+    color: yellow;
+    text-shadow: 3px 3px 3px black;
+    font-size: 3em;
+}
+header h2{
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+#contenedorservicios{
+    display: flex;
+    padding: 10px;
+    
+
+}
+.titulo{
+    text-align: center;
+    color: brown;
+    padding-bottom: 10px;
+   
+}
+section{
+    padding: 20px;
+}
+
+section#servicios{
+    background-color:white;
+}
+section#obras{
+    background-color: blanchedalmond;
+}
+
+.obra{
+    width: 30%;
+    
+    text-align: center;
+
+}
+.obra img{
+    width: 90%;
+}
+#contenedorobras{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#contacto{
+    width: 100%;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+.cajafooter{
+    padding: 10px;
+    width: 33%;
+  
+}
+.cajafooter a{
+    color: blue;
+}
+    
